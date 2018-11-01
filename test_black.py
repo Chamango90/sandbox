@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import 	sys
-import 	rospy
+import 	rospy  
 from 		recordit.recorder import Recorder
 
 if 		__name__ == "__main__":
