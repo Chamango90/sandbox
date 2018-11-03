@@ -3,7 +3,6 @@ python:
   - "3.6"
 before_install:
   - sudo pip install -U pip
-  - sudo pip install pre-commit==0.4.2
-  - pre-commit run --all-files
+  - sudo pip install pre-commit
 script:
   - pre-commit run --all-files
