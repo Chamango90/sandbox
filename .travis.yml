@@ -1,8 +1,10 @@
 language: python
 python:
   - "3.6"
-before_install:
+install:
   - sudo pip install -U pip
   - sudo pip install pre-commit
 script:
   - pre-commit run --all-files
+after_failure:
+  - git diff
