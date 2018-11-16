@@ -1,5 +1,5 @@
 <launch>
-  <test pkg="ros_test" type="check_recorded_file.py" test-name="check_recorded_file">
+  <test pkg="ros_test" type="test_recorder.py" test-name="test_recorder">
     <param name="pause_threshold"  type="double"  value="$(arg pause_threshold)"/>
     <param name="path"  type="str"  value="$(arg path)"/>
   </test>

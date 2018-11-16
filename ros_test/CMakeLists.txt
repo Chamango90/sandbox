@@ -6,5 +6,5 @@ catkin_package()
 
 if(CATKIN_ENABLE_TESTING)
    find_package(rostest REQUIRED)
-   add_rostest(test/test_recordit.test)
+   add_rostest(test/recordit.test)
 endif()

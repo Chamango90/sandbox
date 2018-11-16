@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 PKG = "ros_test"
-NAME = "check_recorded_file"
+NAME = "test_recorder"
 
 # import rospy
 import unittest, rostest
