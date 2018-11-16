@@ -1,4 +1,8 @@
 <launch>
+
+  <arg name="path" default="/tmp/test_recording.json"/>
+  <arg name="pause_threshold" default="0.3"/>
+
   <test pkg="ros_test" type="test_recorder.py" test-name="test_recorder">
     <param name="pause_threshold"  type="double"  value="$(arg pause_threshold)"/>
     <param name="path"  type="str"  value="$(arg path)"/>
